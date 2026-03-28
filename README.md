@@ -10,5 +10,5 @@ git push -u origin main
 
 
 git add .
-git commit -m "pesan"
+git commit -m "komit pertama"
 git push
