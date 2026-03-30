@@ -10,5 +10,5 @@ git push -u origin main
 
 
 git add .
-git commit -m "komit ketiga"
+git commit -m "tambah table"
 git push

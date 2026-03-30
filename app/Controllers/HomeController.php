@@ -6,12 +6,14 @@ class HomeController extends Controller
     public function index() {
         require_once BASE_PATH . '/app/Models/BeritaModel.php';
         require_once BASE_PATH . '/app/Models/BantuanModel.php';
+        require_once BASE_PATH . '/app/Models/TableModel.php';
         
 
         $this->view('home/index', [
             'title'  => 'Home',
             'berita' => (new BeritaModel())->getAll(), 
-            'bantuan' => (new BantuanModel())->getAll()
+            'bantuan' => (new BantuanModel())->getAll(),
+            'table' => (new TableModel())->getAll()
         ]);
     }
 

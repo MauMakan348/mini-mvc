@@ -1,9 +1,9 @@
 
 <div class="accordion pt-5 " id="accordionExample">
-<div class="pt-5"></div>
+<div class="pt-3"></div>
 <h2 class="d-flex justify-content-center">Bantuan</h2>
     
-    <?php foreach ($bantuan as $i => $bantuan_item) : ?>
+    <?php foreach ($bantuan as $bantuan_item) : ?>
     <div class="accordion-item">
         <h2 class="accordion-header">
             <button class="accordion-button" 

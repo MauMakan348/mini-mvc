@@ -10,21 +10,21 @@
 <!-- itemnya -->
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="<?= base_url('hero-1.jpg') ?>" class="d-block w-100" style="height: 600px;">
+            <img src="<?= base_url('hero-1.jpg') ?>" class="d-block w-100" style="height: 565px;">
             <div class="carousel-caption d-none d-md-block">
                 <h5>Kuda Pantai</h5>
                 <p>Kuda yang sedang di pantai dan tampak dari depan</p>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="<?= base_url('hero-2.jpg') ?>" class="d-block w-100" style="height: 600px;">
+            <img src="<?= base_url('hero-2.jpg') ?>" class="d-block w-100" style="height: 565px;">
             <div class="carousel-caption d-none d-md-block">
                 <h5>Kuda Pantai</h5>
                 <p>Kuda yang sedang di pantai dan tampak dari samping dengan bertuliskan "man"</p>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="<?= base_url('hero-3.png') ?>" class="d-block w-100" style="height: 600px;">
+            <img src="<?= base_url('hero-3.png') ?>" class="d-block w-100" style="height: 565px;">
             <div class="carousel-caption d-none d-md-block">
                 <h5>Kuda Kacamata</h5>
                 <p>Menunjukkan kuda yang sedang memakai kacamata hitam, keren bet guwa.</p>
