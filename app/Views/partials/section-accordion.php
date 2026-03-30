@@ -3,13 +3,13 @@
 <div class="pt-5"></div>
 <h2 class="d-flex justify-content-center">Bantuan</h2>
     
-    <?php foreach ($bantuan as $bantuan_item) : ?>
+    <?php foreach ($bantuan as $i => $bantuan_item) : ?>
     <div class="accordion-item">
         <h2 class="accordion-header">
             <button class="accordion-button" 
                 type="button" 
                 data-bs-toggle="collapse" 
-                data-bs-target="#collapseOne" 
+                data-bs-target="#collapseOne " 
                 aria-expanded="true" 
                 aria-controls="collapseOne"> 
                 <?= $bantuan_item['judul'] ?>
