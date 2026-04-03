@@ -10,5 +10,5 @@ git push -u origin main
 
 
 git add .
-git commit -m "tambah table"
+git commit -m "tambah section"
 git push
